@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,800);
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+body {
+	color: #000;
+	font-size: 12px;
+	line-height: 1.4;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f0efef;
+}
+
+
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #606161;
+}
+
+
+
+/******************************************
+/* TEXT STYLES
+/*******************************************/
+h1 {
+	font-size: 48px;
+	font-weight: 800;
+	color: #fff;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 600;
+	color: #033048;
+}
+
+h3 {
+	font-size: 32px;
+	font-weight: 800;
+	color: #033048;
+}
+
+h4 {
+	font-size: 48px;
+	font-weight: 800;
+	color: #f9e42e;
+}
+
+p {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.blog a {
+	font-size: 22px;
+	font-weight: 600;
+	color: #033048;
+}
+
+nav li a {
+	color: #f9e42e;
+	font-weight: 600;
+	font-size: 24px;
+	float: right;
+	display: inline;
+	padding: 20px;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+header {
+	background-color: #00204D;
+	height: 80px;
+	padding: 25px 50px;
+}
+
+.logo {
+	display: inline;
+	float: left;
+}
+
+aside {
+	width: 240px;
+	height: 500px;
+	display: inline-block;
+	margin-left: -4.5px;
+	vertical-align: top;
+	padding: 50px;
+}
+
+section {
+	width: 700px;
+	display: inline-block;
+	padding: 50px;
+}
+
+
+.categories li a {
+	display: block;
+	color: #033048;
+	font-weight: 300;
+	font-size: 24px;
+}
+
+.blog p::first-letter {
+	font-size: 40px;
+	color: #DBAB1E;
+	float: left;
+	vertical-align: top;
+}
+
+.blog a {
+	font-size: 24px;
+	font-weight: 600;
+	float: right;
+	padding-bottom: 20px;
+}
+
+section hr {
+	clear: both;
+}
+
+.about {
+	margin-top: 40px;
+}
+
+.about a {
+	font-size: 24px;
+	font-weight: 600;
+	color: #033048;
+}
+
+.ads {
+	margin-top: 40px;
+}
+
+footer {
+	background-color: #121212;
+	height: 120px;
+	text-align: center;
+	padding-top: 65px;
+	padding-bottom: 65px;
+	margin-top: 60px;
+}
+
+footer ul {
+	margin: 30px;
+}
+
+footer li {
+	display: inline;
+	padding: 20px;
+}
+
+footer p {
+	color: #fff;
+	font-size: 22px;
+}	
+
+
+
+
+
+
+
